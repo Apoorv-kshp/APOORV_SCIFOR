@@ -78,3 +78,11 @@ Benefits of Encapsulation
 4.	Abstraction: Encapsulation allows objects to hide their internal implementation details and only expose what is necessary through public methods.
 Encapsulation is a crucial concept in OOP that promotes data security, modularity, and maintainability in software development.
 
+
+OUTPUT -
+
+Deposited 500. New balance is 1500.
+Withdrew 200. New balance is 1300.
+'BankAccount' object has no attribute '__balance'
+1300
+Account owner: Alice, Balance: 1300
