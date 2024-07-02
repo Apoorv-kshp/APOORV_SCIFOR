@@ -1,0 +1,44 @@
+Running a Program Using Git
+
+Let's run through an example where we create a simple Python program, track it using Git, and push it to GitHub.
+
+    Initialize a Repository
+
+    bash
+
+mkdir my-python-project
+cd my-python-project
+git init
+
+Create a Python File
+
+python
+
+# Create a file named hello.py
+print("Hello, World!")
+
+Stage and Commit the File
+
+bash
+
+git add hello.py
+git commit -m "Initial commit with hello.py"
+
+Create a New Repository on GitHub
+
+    Go to GitHub and create a new repository named my-python-project.
+
+Add the Remote Repository and Push
+
+bash
+
+git remote add origin https://github.com/your-username/my-python-project.git
+git push -u origin master
+
+Running the Program
+
+bash
+
+    python hello.py
+
+
