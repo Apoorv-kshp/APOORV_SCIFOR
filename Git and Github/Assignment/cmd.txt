@@ -42,3 +42,151 @@ bash
     python hello.py
 
 
+
+
+
+Viewing and Exploring the Repository
+
+    git log: Show the commit history.
+
+    bash
+
+git log
+
+git log --oneline: Show the commit history in a compact format.
+
+bash
+
+git log --oneline
+
+git diff: Show changes between commits, commit and working tree, etc.
+
+bash
+
+git diff
+
+git show [commit]: Show details of a specific commit.
+
+bash
+
+    git show [commit_hash]
+
+Working with Branches
+
+    git branch -d [branch_name]: Delete a branch.
+
+    bash
+
+git branch -d feature-branch
+
+git branch -m [new_branch_name]: Rename a branch.
+
+bash
+
+git branch -m new-branch-name
+
+git merge --no-ff [branch_name]: Merge a branch with a commit record.
+
+bash
+
+    git merge --no-ff feature-branch
+
+Remote Repositories
+
+    git remote -v: List all configured remote repositories.
+
+    bash
+
+git remote -v
+
+git remote add [name] [url]: Add a new remote repository.
+
+bash
+
+git remote add origin https://github.com/user/repo.git
+
+git fetch [remote]: Fetch changes from the remote repository.
+
+bash
+
+git fetch origin
+
+git pull [remote] [branch]: Fetch and merge changes from the remote repository.
+
+bash
+
+git pull origin main
+
+git push [remote] [branch]: Push your changes to the remote repository.
+
+bash
+
+    git push origin main
+
+Stashing Changes
+
+    git stash: Temporarily save changes in your working directory.
+
+    bash
+
+git stash
+
+git stash apply: Reapply stashed changes.
+
+bash
+
+git stash apply
+
+git stash pop: Apply and remove the latest stash.
+
+bash
+
+git stash pop
+
+git stash list: List all stashes.
+
+bash
+
+    git stash list
+
+Tagging
+
+    git tag [tag_name]: Create a new tag.
+
+    bash
+
+git tag v1.0
+
+git tag: List all tags.
+
+bash
+
+git tag
+
+git push [remote] [tag]: Push a tag to the remote repository.
+
+bash
+
+    git push origin v1.0
+
+Collaboration and Pull Requests
+
+    git checkout -b [new_branch_name]: Create and switch to a new branch.
+
+    bash
+
+git checkout -b feature-branch
+
+git push -u [remote] [branch]: Push a new branch to the remote repository and set the upstream.
+
+bash
+
+git push -u origin feature-branch
+
+Creating a Pull Request:
+
+    Go to your repository on GitHub.
+    Switch to the branch you want to merge.
+    Click on "Pull Requests" and then "New Pull Request".
+    Select the branches you want to merge and create the pull request.
+
