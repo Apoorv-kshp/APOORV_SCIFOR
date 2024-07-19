@@ -1,0 +1,15 @@
+
+ Differences Between Descriptive and Inferential Statistics
+
+
+     Descriptive Statistics	                                                                                 Inferential Statistics
+1. Summarizes and describes features of a dataset	                                             1. Makes inferences and predictions about a population
+2. Uses measures like mean, median, mode, range, etc.	                                         2. Uses statistical tests and models
+3. Focuses on past data	                                                                       3. Focuses on future predictions
+4. Deals with known data	                                                                     4. Deals with unknown data
+5. No hypothesis testing	                                                                     5. Involves hypothesis testing
+6. Usually uses the entire population or dataset	                                             6. Uses samples to make generalizations
+7. Provides a snapshot of data	                                                               7. Provides insights beyond the data
+8. No uncertainty involved	                                                                   8. Involves a degree of uncertainty
+9. Data is presented in graphs, tables, etc.	                                                 9. Results are presented with confidence intervals
+10. Used for data visualization and summarization	                                            10. Used for making predictions and decisions
